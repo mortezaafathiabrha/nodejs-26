@@ -1,0 +1,17 @@
+{
+  "name": "hello-world-nodejs-v26",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Hello World server written for Node.js 26",
+  "type": "module",
+  "engines": {
+    "node": ">=26.13.0 <27"
+  },
+  "main": "index.js",
+  "scripts": {
+    "prestart": "node scripts/assert-node26.mjs",
+    "start": "node index.js"
+  },
+  "keywords": ["hello", "world", "nodejs", "node26"],
+  "license": "ISC"
+}
